@@ -1,0 +1,41 @@
+extends layout
+
+block content
+  header
+  // main image 
+  #carouselExampleCaptions.carousel.slide(data-ride='carousel')
+  ol.carousel-indicators
+    li.active(data-target='#carouselExampleCaptions' data-slide-to='0')
+    li(data-target='#carouselExampleCaptions' data-slide-to='1')
+    li(data-target='#carouselExampleCaptions' data-slide-to='2')
+  .carousel-inner
+    .carousel-item.active
+      img.d-block.w-100(src='/images/couple-banner.jpg' alt='image1')
+      .carousel-caption.d-none.d-md-block
+        h1 Go Where You Want With Whoever You Want
+        p A bicycle available all the time for you
+
+  .row.row-cols-1.row-cols-md-3
+    .col.mb-4
+      .card.h-100
+        .card-img-top.div(id="mapid1")
+        .card-body
+          h5.card-title Cartagena de Indias - Colombia
+          p.card-text
+            | This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+    .col.mb-4
+      .card.h-100
+        .card-img-top.d-flex(id="mapid2")
+        .card-body
+          h5.card-title Santa Marta - Colombia
+          p.card-text
+            | This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+    .col.mb-4
+      .card.h-100
+        .card-img-top.div(id="mapid3")
+        .card-body
+          h5.card-title Barranquilla - Colombia
+          p.card-text
+            | The Gran Malecón del Río is a wonderful new public space for Barranquilleros and tourists to enjoy the Magdalena River in the best way.
+    
+

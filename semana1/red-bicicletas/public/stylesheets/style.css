@@ -1,0 +1,35 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center; }
+  body header {
+    width: 100%;
+    height: 20px;
+    background-color: #9BB4C0; }
+  body h1 {
+    text-shadow: 2px 2px 2px #2A2A2D; }
+  body .row {
+    margin-left: 0px;
+    margin-right: 0px; }
+  body .card.h-100 {
+    margin-top: 10px;
+    padding: inherit;
+    border-radius: 10px; }
+  body #mapid1 {
+    margin-top: 10px;
+    border-radius: inherit;
+    height: 600px;
+    box-shadow: 2px 4px 7px -1px #9bb4c0; }
+  body #mapid2 {
+    margin-top: 10px;
+    border-radius: inherit;
+    height: 600px;
+    box-shadow: 2px 4px 7px -1px #9bb4c0; }
+  body #mapid3 {
+    margin-top: 10px;
+    border-radius: inherit;
+    min-height: 600px;
+    box-shadow: 2px 4px 7px -1px #9bb4c0; }
+
+/*# sourceMappingURL=style.css.map */
