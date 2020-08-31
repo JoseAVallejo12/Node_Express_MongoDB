@@ -3,10 +3,11 @@ extends ../layout
 block content
   a(href='/bicicletas/create') Crear neva bici
   table.table
-    thead
+    thead.thead-dark
       th(scope='col') #
       th(scope='col') Color
       th(scope='col') Modelo
+      th(scope='col') Ciudad
       th(scope='col') Ubicacion
       th(scope='col')
       th(scope='col')
@@ -16,6 +17,7 @@ block content
           td(scope='row')= bici.id
           td= bici.color
           td= bici.modelo
+          td= bici.ciudad
           td= bici.ubicacion
           td
             a(href='bicicletas/' + bici.id + '/update') Editar

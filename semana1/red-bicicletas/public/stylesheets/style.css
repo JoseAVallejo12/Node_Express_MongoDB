@@ -12,6 +12,8 @@ body {
   body .row {
     margin-left: 0px;
     margin-right: 0px; }
+  body form {
+    padding: 20px; }
   body .card.h-100 {
     margin-top: 10px;
     padding: inherit;
